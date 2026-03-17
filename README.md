@@ -55,13 +55,7 @@ What you can change there:
 4. Go to **Settings → Pages**, set source to **Deploy from branch → main → / (root)**.
 5. Your site will be live at `https://yourusername.github.io/standrewsibanda/`
 
-### Custom domain (optional, ~€10–15/year)
-
-To use a domain like `standrewsibanda.org`:
-1. Buy a domain from Namecheap, Cloudflare, or Google Domains.
-2. In your domain's DNS settings, add a CNAME record pointing to `yourusername.github.io`.
-3. In GitHub Pages settings, enter your custom domain.
-4. Create a file called `CNAME` in the repo root containing just your domain name.
+### Custom domain
 
 ### Updating the site after changes
 
