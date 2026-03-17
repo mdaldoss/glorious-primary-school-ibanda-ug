@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ibanda Glorius Primary School — quality, affordable education for children in Ibanda, Uganda. Donate, adopt a student, or volunteer.">
+  <meta name="keywords" content="Uganda school, Ibanda, education, donate, sponsor, volunteer, Africa">
+  <meta property="og:title" content="Ibanda Glorius Primary School">
+  <meta property="og:description" content="Help us build one more classroom for 40 children in Ibanda, Uganda.">
+  <meta property="og:image" content="images/photo1.jpg">
+  <title>Ibanda Glorius Primary School — Ibanda, Uganda</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════════ -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="#" aria-label="Home">
+      <span id="nav-logo-name">Ibanda Glorius Primary School</span>
+      <span id="nav-logo-loc"></span>
+    </a>
+    <ul class="nav__links" id="nav-links" role="list"></ul>
+    <a class="btn btn--green nav__cta"
+       href="https://www.gofundme.com/f/one-more-classroom-give-40-children-in-ibanda-needs-a-class"
+       target="_blank" rel="noopener">Donate Now</a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__drawer" id="nav-drawer" role="dialog" aria-label="Mobile menu"></div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════════════ -->
+<section class="hero" id="home" aria-label="Hero">
+  <div class="hero__bg" id="hero-bg"></div>
+  <div class="hero__overlay"></div>
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__badge">&#127482;&#127468; Ibanda, Uganda</div>
+      <h1 class="hero__heading" id="hero-heading"></h1>
+      <p class="hero__sub" id="hero-sub"></p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" id="hero-cta-primary" href="#campaign"></a>
+        <a class="btn btn--secondary" id="hero-cta-secondary" href="#adopt"></a>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <span>Scroll</span>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="6 9 12 15 18 9"/>
+    </svg>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     STATS BAR
+════════════════════════════════════════════════════════════ -->
+<div class="stats-bar" aria-label="Key statistics">
+  <div class="container">
+    <div class="stats-bar__grid" id="stats-bar"></div>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     ABOUT
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="about" aria-label="About the school">
+  <div class="container">
+    <div class="grid-2">
+      <div>
+        <p class="section__label">Who We Are</p>
+        <h2 class="section__heading" id="about-heading"></h2>
+        <div id="about-text"></div>
+      </div>
+      <div class="about__image fade-in" id="about-img">
+        <!-- image injected by JS -->
+        <div class="image-placeholder">
+          <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>School photo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     FOUNDER STORY
+════════════════════════════════════════════════════════════ -->
+<section class="section section--alt" id="story" aria-label="Founder story">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:40px;">
+      <p class="section__label">The Man Behind It</p>
+      <h2 class="section__heading" id="story-heading"></h2>
+    </div>
+    <div class="story__content">
+      <div class="story__image fade-in" id="story-img">
+        <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+          <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+        </svg>
+      </div>
+      <p class="section__subheading" style="text-align:center; margin:0 auto 24px;">
+        <strong id="story-name"></strong> &mdash; <span id="story-title"></span>
+      </p>
+      <div id="story-body"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     CAMPAIGN
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="campaign" aria-label="Fundraising campaign">
+  <div class="container">
+    <div class="grid-2">
+      <div class="campaign__body">
+        <p class="section__label">Current Campaign</p>
+        <h2 class="section__heading" id="campaign-heading"></h2>
+        <p class="section__subheading" id="campaign-subheading"></p>
+        <div id="campaign-body"></div>
+
+        <table class="budget-table" aria-label="Budget breakdown">
+          <tbody id="budget-table"></tbody>
+        </table>
+
+        <!-- Bank transfer info (injected by JS) -->
+        <div id="bank-transfer" style="margin-top:24px;"></div>
+
+        <div class="campaign__actions">
+          <a class="btn btn--gofundme" id="gofundme-btn" href="#" target="_blank" rel="noopener">
+            &#128248; Donate on GoFundMe
+          </a>
+          <a class="btn btn--outline" id="campaign-wa-btn" href="#" target="_blank" rel="noopener">
+            &#128172; Ask a Question
+          </a>
+        </div>
+      </div>
+
+      <div class="fade-in">
+        <div class="progress-card" aria-label="Fundraising progress">
+          <div class="progress__numbers">
+            <span class="progress__raised" id="progress-raised"></span>
+            <span class="progress__goal" id="progress-goal"></span>
+          </div>
+          <div class="progress__bar-wrap" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+            <div class="progress__bar" id="progress-bar"></div>
+          </div>
+          <div class="progress__meta">
+            <span><strong id="progress-pct"></strong> funded</span>
+            <span><strong id="progress-donors"></strong></span>
+          </div>
+        </div>
+
+        <!-- visual: classroom illustration -->
+        <div style="border-radius:12px; overflow:hidden; background:var(--green-light); padding:32px; text-align:center;">
+          <div style="font-size:4rem; margin-bottom:12px;">🏫</div>
+          <p style="font-size:0.9rem; color:var(--mid);">
+            A classroom is more than four walls.<br>
+            It is <strong>opportunity, dignity, and hope</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     ADOPT A STUDENT
+════════════════════════════════════════════════════════════ -->
+<section class="section section--alt" id="adopt" aria-label="Adopt a student">
+  <div class="container">
+    <div class="grid-2">
+      <div class="adopt__body">
+        <p class="section__label">Sponsor a Child</p>
+        <h2 class="section__heading" id="adopt-heading"></h2>
+        <p class="section__subheading" id="adopt-subheading"></p>
+        <div id="adopt-body"></div>
+      </div>
+      <div class="adopt-card fade-in">
+        <div class="adopt-card__price" id="adopt-price"></div>
+        <p class="adopt-card__price-sub" id="adopt-price-sub"></p>
+        <ul class="adopt-benefits" id="adopt-benefits" aria-label="What's included"></ul>
+        <a class="btn btn--whatsapp" id="adopt-btn" href="#" target="_blank" rel="noopener"
+           style="width:100%; justify-content:center;">
+          &#128172; Adopt a Student via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     VOLUNTEER
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="volunteer" aria-label="Volunteer opportunities">
+  <div class="container">
+    <p class="section__label">Get Involved</p>
+    <h2 class="section__heading" id="volunteer-heading"></h2>
+    <p class="section__subheading" id="volunteer-subheading"></p>
+    <div class="volunteer__intro" id="volunteer-intro"></div>
+    <div class="grid-3" id="roles-grid"></div>
+    <div class="volunteer__cta">
+      <a class="btn btn--whatsapp" id="volunteer-btn" href="#" target="_blank" rel="noopener">
+        &#128172; Express Interest via WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     GALLERY
+════════════════════════════════════════════════════════════ -->
+<section class="section section--alt" id="gallery" aria-label="Photo gallery">
+  <div class="container">
+    <p class="section__label">Photos</p>
+    <h2 class="section__heading" id="gallery-heading"></h2>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="lightbox__close" id="lightbox-close" aria-label="Close">&times;</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     CONTACT
+════════════════════════════════════════════════════════════ -->
+<section class="section" id="contact" aria-label="Contact">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:40px;">
+      <p class="section__label">Reach Out</p>
+      <h2 class="section__heading" id="contact-heading"></h2>
+    </div>
+    <div class="contact-card fade-in">
+      <p class="contact-card__body" id="contact-body"></p>
+      <a class="btn btn--whatsapp" id="contact-wa-btn" href="#" target="_blank" rel="noopener"
+         style="display:inline-flex; margin:0 auto;">
+        &#128172; Message Dr. Andrew on WhatsApp
+      </a>
+      <div class="contact__details" id="contact-details"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__logo" id="footer-logo"></div>
+        <div class="footer__tagline" id="footer-tagline"></div>
+      </div>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#campaign">Campaign</a>
+        <a href="#adopt">Adopt</a>
+        <a href="#volunteer">Volunteer</a>
+        <a href="https://www.gofundme.com/f/one-more-classroom-give-40-children-in-ibanda-needs-a-class"
+           id="footer-gofundme" target="_blank" rel="noopener">GoFundMe</a>
+        <a href="#" id="footer-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+    <p class="footer__copy" id="footer-copy"></p>
+  </div>
+</footer>
+
+<script src="content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
