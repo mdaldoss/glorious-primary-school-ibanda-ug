@@ -22,7 +22,7 @@ const CONTENT = {
     founded: "2022",
     students: "50+",
     classrooms: "4",
-    email: "info@standrewsibanda.org",
+    email: "andak288@yahoo.com",
     phone: "+256 752 978 287",
     postal: "P.O. Box 356, Ibanda, Uganda",
     logo: "images/logo.png",
