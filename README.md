@@ -1,6 +1,6 @@
-# Ibanda Glorius Primary School — Website
+# Ibanda Glorious Primary School — Website
 
-Static website for Ibanda Glorius Primary School, hosted free on GitHub Pages.
+Static website for Ibanda Glorious Primary School, hosted free on GitHub Pages.
 
 ---
 
@@ -36,7 +36,7 @@ What you can change there:
 
 **Current images:**
 | File | Used as |
-|------|---------|
+|------|--------|
 | `images/photo1.jpg` | Hero background & gallery |
 | `images/photo2.jpg` | About section & gallery |
 | `images/photo3.jpg` | Founder photo & gallery |
