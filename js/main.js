@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setText('adopt-heading',    ad.heading);
   setText('adopt-subheading', ad.subheading);
   setText('adopt-price',      ad.price_per_year);
-  setText('adopt-price-sub',  `per year · ${ad.price_per_month}/month`);
+  setText('adopt-price-sub',  `per year · ${ad.price_per_term}/term`);
 
   const adoptBody = $('adopt-body');
   if (adoptBody) adoptBody.innerHTML = ad.body.map(p => `<p>${p}</p>`).join('');
