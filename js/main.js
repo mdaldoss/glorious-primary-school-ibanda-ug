@@ -283,9 +283,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const rows = [
       { icon: phoneIcon(),   text: co.phone },
       { icon: mailIcon(),    text: co.email,   href: `mailto:${co.email}` },
+      co.email2 ? { icon: mailIcon(), text: co.email2, href: `mailto:${co.email2}` } : null,
+      C.school.website ? { icon: globeIcon(), text: C.school.website, href: `https://${C.school.website}` } : null,
       { icon: pinIcon(),     text: co.address },
       { icon: boxIcon(),     text: co.postal },
-    ].filter(r => r.text);
+    ].filter(r => r && r.text);
     contactDetails.innerHTML = rows.map(r =>
       `<div class="contact__detail">
         ${r.icon}
@@ -330,5 +332,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function boxIcon() {
     return `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>`;
+  }
+  function globeIcon() {
+    return `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>`;
   }
 });

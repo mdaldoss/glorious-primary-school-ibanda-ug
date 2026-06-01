@@ -92,4 +92,5 @@ site/
 
 - **GoFundMe campaign:** https://www.gofundme.com/f/one-more-classroom-give-40-children-in-ibanda-needs-a-class
 - **WhatsApp Dr. Andrew:** https://wa.me/256772571975
-- **Email:** info@standrewsibanda.org
+- **Website:** www.glorious-school-ibanda.com
+- **Email:** hello@glorious-school-ibanda.com / andak288@yahoo.com
