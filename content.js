@@ -1,6 +1,6 @@
 /**
  * ============================================================
- *  IBANDA GLORIUS PRIMARY SCHOOL — WEBSITE CONTENT
+ *  IBANDA GLORIOUS PRIMARY SCHOOL — WEBSITE CONTENT
  *
  *  Edit this file to update all text on the website.
  *  No coding knowledge required — just change the text values.
@@ -14,15 +14,17 @@ const CONTENT = {
 
   // ── SCHOOL IDENTITY ───────────────────────────────────────
   school: {
-    name: "Ibanda Glorius Primary School",
+    name: "Ibanda Glorious Primary School",
     org_name: "St. Andrew's School Project For The Young",
     cbo_number: "CBO No. 529",
     tagline: "Quality Education for Every Child",
-    location: "Ibanda Town Council, Western Uganda",
-    founded: "2022",
-    students: "50+",
+    location: "Ibanda Municipality, Western Uganda",
+    founded: "2025",
+    students: "55+",
     classrooms: "4",
-    email: "andak288@yahoo.com",
+    email: "hello@glorious-school-ibanda.com",
+    email2: "andak288@yahoo.com",
+    website: "www.glorious-school-ibanda.com",
     phone: "+256 752 978 287",
     postal: "P.O. Box 356, Ibanda, Uganda",
     logo: "images/logo.png",
@@ -32,7 +34,7 @@ const CONTENT = {
   hero: {
     heading: "Building Futures,\nOne Classroom at a Time",
     subheading:
-      "Ibanda Glorius Primary School brings quality, affordable education to orphans and children from poor backgrounds in rural Uganda — powered by community, compassion, and global solidarity.",
+      "Ibanda Glorious Primary School brings quality, affordable education to orphans and children from poor backgrounds in rural Uganda — powered by community, compassion, and global solidarity.",
     cta_primary:  { label: "Support the Campaign",  href: "#campaign" },
     cta_secondary:{ label: "Adopt a Student",        href: "#adopt" },
     // ↓ Replace with your own image. Drop the file in /images and update the path.
@@ -43,15 +45,15 @@ const CONTENT = {
   about: {
     heading: "About the School",
     body: [
-      "Ibanda Glorius Primary School is a private primary school located in Ibanda Town Council, Western Uganda. We are registered as a Community Based Organisation (CBO No. 529) and our mission is simple: give every local child access to quality education at a price their family can afford.",
+      "Ibanda Glorious Primary School is a private primary school located in Ibanda Municipality, Western Uganda. We are registered as a Community Based Organisation (CBO No. 529) and our mission is simple: give every local child access to quality education at a price their family can afford.",
       "We serve orphans, children from poor backgrounds, and bright young learners who would otherwise be locked out of education. Many of our families have been devastated by poverty and HIV/AIDS. The school is gender-sensitive and welcomes children regardless of religion, tribe, or background.",
-      "Today we house <strong>more than 50 students</strong> across Primary 1, 2, and 3. Four classrooms have been built on the ground floor — a direct result of donations from generous supporters around the world. Our long-term vision is to grow to over <strong>400 students</strong> and become a lasting institution for the people of Ibanda.",
+      "Today we house <strong>more than 55 students</strong> across Nursery (Kindergarten) and Primary 1, 2, and 3. Four classrooms have been built on the ground floor — a direct result of donations from generous supporters around the world. Our long-term vision is to grow to over <strong>400 students</strong> and become a lasting institution for the people of Ibanda.",
     ],
     stats: [
-      { number: "50+",  label: "Students Enrolled" },
+      { number: "55+",  label: "Students Enrolled" },
       { number: "4",    label: "Classrooms Built" },
-      { number: "400",  label: "Students — Long-term Vision" },
-      { number: "2022", label: "Year Founded" },
+      { number: "400",  label: "Students (Long-term Vision)" },
+      { number: "2025", label: "Year Founded" },
     ],
     // ↓ Replace with a school photo
     image: "images/photo2.jpg",
@@ -64,9 +66,9 @@ const CONTENT = {
     founder_title: "Founder & Director, PhD",
     founder_whatsapp: "+256772571975",
     body: [
-      "Dr. Andrew Akampurira grew up in Ibanda and experienced first-hand how poverty robs children of their future. Watching bright young minds drop out of school because their families could not afford the fees drove him to dedicate his life to change.",
-      "After years of planning and earning his PhD, Andrew launched <em>St. Andrew's School Project For The Young</em> — a community-based organisation with one goal: build a school that would still be serving the children of Ibanda a hundred years from now. Thanks to early supporters around the world, the first ground floor became a reality.",
-      "\"By sacrificing the cost of a bottle of beer you would be contributing a lot to the welfare of an African child. Our assumption is that if 8,687 people can donate €25+, the project would be accomplished in the shortest possible time.\"",
+      "Dr. Andrew Akampurira grew up in Ibanda and experienced first-hand how poverty robs children of their future. Watching bright young minds drop out of school because their families could not afford the fees drove him to dedicate his life to changing the trend.",
+      "After years of planning and earning his PhD, Andrew launched <em>St. Andrew's School Project For The Young</em> — a community-based organisation with one goal: build a good school that would still be serving the children of Ibanda a hundred years from now. Thanks to early supporters around the world, the first ground floor became a reality.",
+      "\"By sacrificing the cost of a bottle of beer you would be contributing a lot to the welfare of an African child. Our assumption is that if a good number of people can donate about €25+ (per person), the project would be accomplished in the shortest possible time.\" Please spread the message about our project.",
     ],
     quote: "Every child deserves a classroom. Education is not a privilege — it is a right. I have dedicated my life to making that right a reality for the children of Ibanda.",
     // ↓ Replace with Andrew's photo
@@ -108,8 +110,8 @@ const CONTENT = {
     heading: "Adopt a Student",
     subheading: "Change a Child's Life for €60 a Year",
     body: [
-      "For just <strong>€60 per year</strong> — less than €5 a month — you can sponsor a child's full education at Ibanda Glorius Primary School. Your contribution covers tuition, learning materials, and basic school supplies for an entire school year.",
-      "You will receive updates about your sponsored student and the school's progress. Your support gives a child — perhaps an orphan, perhaps a first-generation learner — the chance at a better future.",
+      "For just <strong>€60 per year</strong> — less than €5 a month — you can sponsor a child's full education at Ibanda Glorious Primary School. Your contribution covers tuition, learning materials, and basic school supplies for an entire school year.",
+      "You will receive updates about your sponsored student and the school's progress. Your support gives a child — perhaps an orphan, perhaps a first-generation learner — the chance for a better future.",
     ],
     price_per_year: "€60",
     price_per_month: "~€5",
@@ -122,7 +124,7 @@ const CONTENT = {
     cta_label: "Adopt a Student via WhatsApp",
     whatsapp_number: "+256772571975",
     whatsapp_message:
-      "Hello Dr. Andrew, I would like to adopt/sponsor a student at Ibanda Glorius Primary School. Please let me know how to proceed.",
+      "Hello Dr. Andrew, I would like to adopt/sponsor a student at Ibanda Glorious Primary School. Please let me know how to proceed.",
   },
 
   // ── VOLUNTEER SECTION ─────────────────────────────────────
@@ -130,7 +132,7 @@ const CONTENT = {
     heading: "Volunteer With Us",
     subheading: "Your Skills Can Transform a Community",
     body: [
-      "We welcome volunteers from all over the world. Whether you can offer a week or a month, your presence makes a real difference to the children and staff of Ibanda Glorius Primary School. No prior experience in Africa required — only enthusiasm and a good heart.",
+      "We welcome volunteers from all over the world. Whether you can offer a week or a month, your presence makes a real difference to the children and staff of Ibanda Glorious Primary School. No prior experience in Africa required — only enthusiasm and a good heart.",
     ],
     roles: [
       {
@@ -173,7 +175,7 @@ const CONTENT = {
     cta_label: "Express Interest via WhatsApp",
     whatsapp_number: "+256772571975",
     whatsapp_message:
-      "Hello Dr. Andrew, I am interested in volunteering at Ibanda Glorius Primary School. Here is a little about me and how I can help: ",
+      "Hello Dr. Andrew, I am interested in volunteering at Ibanda Glorious Primary School. Here is a little about me and how I can help: ",
   },
 
   // ── GALLERY SECTION ───────────────────────────────────────
@@ -196,10 +198,11 @@ const CONTENT = {
     whatsapp_number: "+256772571975",
     whatsapp_label: "Message Dr. Andrew on WhatsApp",
     whatsapp_message:
-      "Hello Dr. Andrew, I would like to learn more about Ibanda Glorius Primary School.",
-    email: "info@standrewsibanda.org",
+      "Hello Dr. Andrew, I would like to learn more about Ibanda Glorious Primary School.",
+    email: "hello@glorious-school-ibanda.com",
+    email2: "andak288@yahoo.com",
     phone: "+256 752 978 287",
-    address: "Ibanda Town Council, Western Uganda",
+    address: "Ibanda Municipality, Western Uganda",
     postal: "P.O. Box 356, Ibanda, Uganda",
   },
 

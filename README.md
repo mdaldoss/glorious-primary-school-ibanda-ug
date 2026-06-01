@@ -1,6 +1,6 @@
-# Ibanda Glorius Primary School — Website
+# Ibanda Glorious Primary School — Website
 
-Static website for Ibanda Glorius Primary School, hosted free on GitHub Pages.
+Static website for Ibanda Glorious Primary School, hosted free on GitHub Pages.
 
 ---
 
@@ -36,7 +36,7 @@ What you can change there:
 
 **Current images:**
 | File | Used as |
-|------|---------|
+|------|--------|
 | `images/photo1.jpg` | Hero background & gallery |
 | `images/photo2.jpg` | About section & gallery |
 | `images/photo3.jpg` | Founder photo & gallery |
@@ -92,4 +92,5 @@ site/
 
 - **GoFundMe campaign:** https://www.gofundme.com/f/one-more-classroom-give-40-children-in-ibanda-needs-a-class
 - **WhatsApp Dr. Andrew:** https://wa.me/256772571975
-- **Email:** info@standrewsibanda.org
+- **Website:** www.glorious-school-ibanda.com
+- **Email:** hello@glorious-school-ibanda.com / andak288@yahoo.com
