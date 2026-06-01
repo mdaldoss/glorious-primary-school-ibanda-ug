@@ -110,7 +110,7 @@ const CONTENT = {
     heading: "Adopt a Student",
     subheading: "Change a Child's Life for €60 a Year",
     body: [
-      "For just <strong>€110 per year</strong>, you can sponsor a child's full education at Ibanda Glorious Primary School. Your contribution covers tuition, learning materials, and basic school supplies for an entire school year.",
+      "For just <strong>€60 per year</strong> — less than €5 a month — you can sponsor a child's full education at Ibanda Glorious Primary School. Your contribution covers tuition, learning materials, and basic school supplies for an entire school year.",
       "You will receive updates about your sponsored student and the school's progress. Your support gives a child — perhaps an orphan, perhaps a first-generation learner — the chance for a better future.",
     ],
     price_per_year: "€60",
