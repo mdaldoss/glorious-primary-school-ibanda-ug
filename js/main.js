@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const aboutImg = $('about-img');
   if (aboutImg && ab.image) {
-    aboutImg.innerHTML = `<img src="${ab.image}" alt="Ibanda Glorius Primary School" loading="lazy">`;
+    aboutImg.innerHTML = `<img src="${ab.image}" alt="Ibanda Glorious Primary School" loading="lazy">`;
   }
 
   // ── STORY ─────────────────────────────────────────────────
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const campWaBtn = $('campaign-wa-btn');
   if (campWaBtn) {
     campWaBtn.href = wa(C.contact.whatsapp_number,
-      `Hello Dr. Andrew, I would like to support the classroom campaign at Ibanda Glorius Primary School.`);
+      `Hello Dr. Andrew, I would like to support the classroom campaign at Ibanda Glorious Primary School.`);
   }
 
   // ── ADOPT ─────────────────────────────────────────────────
@@ -307,6 +307,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const footerWaLink = $('footer-whatsapp');
   if (footerWaLink) footerWaLink.href = wa(C.contact.whatsapp_number, C.contact.whatsapp_message);
+
+  const waFloat = $('whatsapp-float');
+  if (waFloat) waFloat.href = wa(C.contact.whatsapp_number, C.contact.whatsapp_message);
 
   // ── INTERSECTION OBSERVER — fade-in ───────────────────────
   const fadeObs = new IntersectionObserver(entries => {

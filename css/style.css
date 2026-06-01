@@ -2,7 +2,7 @@
    IBANDA GLORIUS PRIMARY SCHOOL — STYLESHEET
    ============================================================ */
 
-/* ── FONTS & RESET ────────────────────────────────────────── */
+/* ── FONTS & RESET ──────────────────────────────────────── */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -45,7 +45,7 @@ a:hover { text-decoration: underline; }
 
 img { max-width: 100%; display: block; }
 
-/* ── UTILITIES ────────────────────────────────────────────── */
+/* ── UTILITIES ──────────────────────────────────────────── */
 .container {
   width: 100%;
   max-width: var(--max-width);
@@ -149,7 +149,7 @@ img { max-width: 100%; display: block; }
   gap: 24px;
 }
 
-/* ── NAVIGATION ───────────────────────────────────────────── */
+/* ── NAVIGATION ─────────────────────────────────────────── */
 .nav {
   position: fixed;
   top: 0;
@@ -219,7 +219,7 @@ img { max-width: 100%; display: block; }
   transition: var(--transition);
 }
 
-/* ── HERO ─────────────────────────────────────────────────── */
+/* ── HERO ───────────────────────────────────────────────── */
 .hero {
   min-height: 100svh;
   display: flex;
@@ -314,7 +314,7 @@ img { max-width: 100%; display: block; }
   50%       { transform: translateX(-50%) translateY(6px); }
 }
 
-/* ── STATS BAR ────────────────────────────────────────────── */
+/* ── STATS BAR ──────────────────────────────────────────── */
 .stats-bar {
   background: var(--green);
   color: var(--white);
@@ -344,7 +344,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.08em;
 }
 
-/* ── ABOUT ────────────────────────────────────────────────── */
+/* ── ABOUT ──────────────────────────────────────────────── */
 .about__text p {
   color: var(--mid);
   margin-bottom: 16px;
@@ -382,7 +382,7 @@ img { max-width: 100%; display: block; }
 
 .image-placeholder svg { opacity: 0.3; }
 
-/* ── STORY ────────────────────────────────────────────────── */
+/* ── STORY ──────────────────────────────────────────────── */
 .story__image {
   border-radius: 50%;
   width: 220px;
@@ -431,7 +431,7 @@ img { max-width: 100%; display: block; }
   font-size: 0.9rem;
 }
 
-/* ── CAMPAIGN ─────────────────────────────────────────────── */
+/* ── CAMPAIGN ───────────────────────────────────────────── */
 .progress-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -514,7 +514,7 @@ img { max-width: 100%; display: block; }
   margin-top: 24px;
 }
 
-/* ── BANK CARD ────────────────────────────────────────────── */
+/* ── BANK CARD ──────────────────────────────────────────── */
 .bank-card {
   background: var(--amber-light);
   border: 1px solid rgba(232,160,32,0.35);
@@ -560,7 +560,7 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.02em;
 }
 
-/* ── ADOPT ────────────────────────────────────────────────── */
+/* ── ADOPT ──────────────────────────────────────────────── */
 .adopt-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -620,7 +620,7 @@ img { max-width: 100%; display: block; }
   margin-bottom: 16px;
 }
 
-/* ── VOLUNTEER ────────────────────────────────────────────── */
+/* ── VOLUNTEER ──────────────────────────────────────────── */
 .role-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -663,7 +663,7 @@ img { max-width: 100%; display: block; }
   text-align: center;
 }
 
-/* ── GALLERY ──────────────────────────────────────────────── */
+/* ── GALLERY ────────────────────────────────────────────── */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -736,7 +736,7 @@ img { max-width: 100%; display: block; }
   line-height: 1;
 }
 
-/* ── CONTACT ──────────────────────────────────────────────── */
+/* ── CONTACT ────────────────────────────────────────────── */
 .contact-card {
   background: var(--white);
   border-radius: var(--radius);
@@ -770,7 +770,7 @@ img { max-width: 100%; display: block; }
 
 .contact__detail svg { flex-shrink: 0; }
 
-/* ── FOOTER ───────────────────────────────────────────────── */
+/* ── FOOTER ─────────────────────────────────────────────── */
 .footer {
   background: var(--green-dark);
   color: rgba(255,255,255,0.7);
@@ -820,7 +820,7 @@ img { max-width: 100%; display: block; }
   color: rgba(255,255,255,0.4);
 }
 
-/* ── MOBILE NAV DRAWER ────────────────────────────────────── */
+/* ── MOBILE NAV DRAWER ────────────────────────────────── */
 .nav__drawer {
   display: none;
   position: fixed;
@@ -848,7 +848,7 @@ img { max-width: 100%; display: block; }
 
 .nav__drawer a:last-child { border-bottom: none; }
 
-/* ── RESPONSIVE ───────────────────────────────────────────── */
+/* ── RESPONSIVE ─────────────────────────────────────────── */
 @media (max-width: 900px) {
   .grid-2 { grid-template-columns: 1fr; gap: 32px; }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
@@ -871,7 +871,7 @@ img { max-width: 100%; display: block; }
   .contact-card { padding: 32px 20px; }
 }
 
-/* ── ANIMATIONS ───────────────────────────────────────────── */
+/* ── ANIMATIONS ─────────────────────────────────────────── */
 .fade-in {
   opacity: 0;
   transform: translateY(24px);
@@ -888,3 +888,28 @@ img { max-width: 100%; display: block; }
 .fade-in:nth-child(4) { transition-delay: 0.3s; }
 .fade-in:nth-child(5) { transition-delay: 0.4s; }
 .fade-in:nth-child(6) { transition-delay: 0.5s; }
+
+/* ── FLOATING WHATSAPP BUTTON ──────────────────────────── */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 56px;
+  height: 56px;
+  background: #25d366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  z-index: 1000;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+@media (max-width: 600px) {
+  .whatsapp-float { bottom: 16px; right: 16px; width: 50px; height: 50px; }
+  .whatsapp-float svg { width: 24px; height: 24px; }
+}
