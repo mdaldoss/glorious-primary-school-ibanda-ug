@@ -38,7 +38,7 @@ const CONTENT = {
     cta_primary:  { label: "Support the Campaign",  href: "#campaign" },
     cta_secondary:{ label: "Adopt a Student",        href: "#adopt" },
     // ↓ Replace with your own image. Drop the file in /images and update the path.
-    image: "images/photo1.jpg",
+    image: "images/photo5.jpeg",
   },
 
   // ── ABOUT SECTION ─────────────────────────────────────────
@@ -108,15 +108,15 @@ const CONTENT = {
   // ── ADOPT A STUDENT SECTION ───────────────────────────────
   adopt: {
     heading: "Adopt a Student",
-    subheading: "Change a Child's Life for €60 a Year",
+    subheading: "Change a Child's Life for €180 a Year",
     body: [
-      "For just <strong>€60 per year</strong> — less than €5 a month — you can sponsor a child's full education at Ibanda Glorious Primary School. Your contribution covers tuition, learning materials, and basic school supplies for an entire school year.",
+      "For just <strong>€60 per term</strong> — €180 per year (3 terms) — you can sponsor a child's full education at Ibanda Glorious Primary School. Your contribution covers tuition, learning materials, and basic school supplies for the entire school year.",
       "You will receive updates about your sponsored student and the school's progress. Your support gives a child — perhaps an orphan, perhaps a first-generation learner — the chance for a better future.",
     ],
-    price_per_year: "€60",
-    price_per_month: "~€5",
+    price_per_year: "€180",
+    price_per_term: "€60",
     benefits: [
-      "Full tuition for one school year",
+      "Full tuition for all 3 school terms",
       "Learning materials & school supplies",
       "Regular progress updates from the school",
       "Connection to our global supporter community",
@@ -188,6 +188,9 @@ const CONTENT = {
       { src: "images/photo2.jpg", caption: "Our classrooms in progress" },
       { src: "images/photo3.jpg", caption: "Students and staff" },
       { src: "images/photo4.jpg", caption: "The community behind the school" },
+      { src: "images/photo5.jpeg", caption: "Students celebrating at Glorious Primary School" },
+      { src: "images/photo6.jpeg", caption: "Morning assembly at the school" },
+      { src: "images/photo7.jpeg", caption: "A volunteer with the students" },
     ],
   },
 
