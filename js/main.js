@@ -308,6 +308,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const footerWaLink = $('footer-whatsapp');
   if (footerWaLink) footerWaLink.href = wa(C.contact.whatsapp_number, C.contact.whatsapp_message);
 
+  const waFloat = $('whatsapp-float');
+  if (waFloat) waFloat.href = wa(C.contact.whatsapp_number, C.contact.whatsapp_message);
+
   // ── INTERSECTION OBSERVER — fade-in ───────────────────────
   const fadeObs = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
