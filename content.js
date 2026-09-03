@@ -194,6 +194,17 @@ const CONTENT = {
     ],
   },
 
+  // ── VIDEOS SECTION ────────────────────────────────────────
+  // Add YouTube video IDs here. To find the ID: open the video on YouTube,
+  // copy the part after "?v=" in the URL (e.g. "dQw4w9WgXcQ").
+  // Leave the items array empty [] to hide this section entirely.
+  videos: {
+    heading: "School Life in Motion",
+    items: [
+      // { youtube_id: "PASTE_ID_HERE", caption: "Your video caption" },
+    ],
+  },
+
   // ── CONTACT SECTION ───────────────────────────────────────
   contact: {
     heading: "Get in Touch",

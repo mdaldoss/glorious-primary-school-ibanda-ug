@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const navLinks = $('nav-links');
   const drawerLinks = $('nav-drawer');
   if (navLinks && C.nav) {
-    const sections = ['about','story','campaign','adopt','volunteer','contact'];
-    const labels   = ['About','Our Story','Campaign','Adopt','Volunteer','Contact'];
+    const sections = ['about','story','campaign','adopt','volunteer','videos','contact'];
+    const labels   = ['About','Our Story','Campaign','Adopt','Volunteer','Videos','Contact'];
     navLinks.innerHTML = sections.map((s,i) =>
       `<li><a href="#${s}">${labels[i]}</a></li>`
     ).join('');
@@ -265,6 +265,29 @@ document.addEventListener('DOMContentLoaded', () => {
     $('lightbox-close').addEventListener('click', () => lightbox.classList.remove('open'));
     lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.classList.remove('open'); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') lightbox.classList.remove('open'); });
+  }
+
+  // ── VIDEOS ────────────────────────────────────────────────
+  const vd = C.videos;
+  if (vd && vd.items && vd.items.length) {
+    setText('videos-heading', vd.heading);
+    const videoGrid = $('video-grid');
+    if (videoGrid) {
+      videoGrid.innerHTML = vd.items.map(v =>
+        `<div class="video-item fade-in">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/${v.youtube_id}"
+              title="${v.caption || 'School video'}" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+          ${v.caption ? `<p class="video-item__caption">${v.caption}</p>` : ''}
+        </div>`
+      ).join('');
+    }
+  } else {
+    const videoSection = document.getElementById('videos');
+    if (videoSection) videoSection.hidden = true;
   }
 
   // ── CONTACT ───────────────────────────────────────────────

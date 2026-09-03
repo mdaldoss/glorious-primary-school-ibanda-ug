@@ -1,24 +1,24 @@
 /* ============================================================
-   IBANDA GLORIUS PRIMARY SCHOOL — STYLESHEET
+   IBANDA GLORIOUS PRIMARY SCHOOL — STYLESHEET
    ============================================================ */
 
 /* ── FONTS & RESET ──────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:      #1b6b3a;
-  --green-dark: #0f4024;
-  --green-light:#d4edda;
-  --amber:      #e8a020;
-  --amber-light:#fff3cd;
+  --green:      #B85430;
+  --green-dark: #1B2D4E;
+  --green-light:#F5E8D8;
+  --amber:      #C9A06A;
+  --amber-light:#FAF0E6;
   --red:        #c0392b;
   --dark:       #1a1a1a;
-  --mid:        #555;
-  --light:      #f7f7f5;
+  --mid:        #8C7A68;
+  --light:      #EDE5D6;
   --white:      #ffffff;
-  --border:     #e0e0e0;
+  --border:     #DDD5C8;
   --radius:     12px;
   --shadow:     0 4px 24px rgba(0,0,0,0.10);
   --transition: 0.25s ease;
@@ -28,14 +28,14 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   color: var(--dark);
-  background: var(--white);
+  background: #FAF6EF;
   line-height: 1.7;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Cormorant Garamond', Georgia, serif;
   line-height: 1.25;
   color: var(--dark);
 }
@@ -66,8 +66,10 @@ img { max-width: 100%; display: block; }
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--amber);
+  color: var(--green);
   margin-bottom: 10px;
+  border-left: 3px solid var(--green);
+  padding-left: 10px;
 }
 
 .section__heading {
@@ -173,15 +175,15 @@ img { max-width: 100%; display: block; }
 }
 
 .nav__logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--green-dark);
   line-height: 1.2;
   flex-shrink: 0;
 }
 
-.nav__logo span { display: block; font-size: 0.7rem; font-family: 'Inter', sans-serif; font-weight: 400; color: var(--mid); letter-spacing: 0.08em; }
+.nav__logo span { display: block; font-size: 0.7rem; font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 400; color: var(--mid); letter-spacing: 0.08em; }
 
 .nav__links {
   display: flex;
@@ -198,6 +200,8 @@ img { max-width: 100%; display: block; }
 }
 
 .nav__links a:hover { color: var(--green); text-decoration: none; }
+
+.nav__links a { transition: color var(--transition); }
 
 .nav__cta { flex-shrink: 0; }
 
@@ -235,16 +239,16 @@ img { max-width: 100%; display: block; }
   inset: 0;
   background-size: cover;
   background-position: center;
-  opacity: 0.35;
+  opacity: 0.5;
   transition: opacity 0.5s;
 }
 
-.hero__bg.loaded { opacity: 0.45; }
+.hero__bg.loaded { opacity: 0.68; }
 
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15,64,36,0.85) 0%, rgba(27,107,58,0.65) 60%, rgba(232,160,32,0.15) 100%);
+  background: linear-gradient(to top, rgba(27,45,78,0.82) 0%, rgba(27,45,78,0.35) 55%, rgba(0,0,0,0.05) 100%);
 }
 
 .hero__content {
@@ -330,10 +334,10 @@ img { max-width: 100%; display: block; }
 }
 
 .stat__number {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.6rem;
   font-weight: 700;
-  color: var(--amber);
+  color: #ffffff;
   display: block;
 }
 
@@ -388,7 +392,7 @@ img { max-width: 100%; display: block; }
   width: 220px;
   height: 220px;
   overflow: hidden;
-  box-shadow: 0 0 0 6px var(--amber), 0 0 0 12px rgba(232,160,32,0.15);
+  box-shadow: 0 0 0 6px var(--green), 0 0 0 14px rgba(184,84,48,0.15);
   margin: 0 auto 32px;
   background: var(--green-light);
   display: flex;
@@ -419,7 +423,9 @@ img { max-width: 100%; display: block; }
   padding: 20px 24px;
   border-radius: 0 var(--radius) var(--radius) 0;
   font-style: italic;
-  color: var(--green-dark);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  color: var(--dark);
   text-align: left;
   margin-top: 24px;
 }
@@ -448,8 +454,8 @@ img { max-width: 100%; display: block; }
 }
 
 .progress__raised {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.2rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--green);
 }
@@ -471,7 +477,7 @@ img { max-width: 100%; display: block; }
   height: 100%;
   background: linear-gradient(90deg, var(--green) 0%, var(--amber) 100%);
   border-radius: 50px;
-  transition: width 1.2s ease;
+  transition: width 1.4s cubic-bezier(0.4, 0, 0.2, 1);
   width: 0%;
 }
 
@@ -566,15 +572,15 @@ img { max-width: 100%; display: block; }
   border-radius: var(--radius);
   padding: 40px 32px;
   box-shadow: var(--shadow);
-  border-top: 4px solid var(--amber);
+  border-top: 4px solid var(--green);
   text-align: center;
   max-width: 480px;
   margin: 0 auto;
 }
 
 .adopt-card__price {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.8rem;
   font-weight: 700;
   color: var(--green);
   line-height: 1;
@@ -641,8 +647,9 @@ img { max-width: 100%; display: block; }
 }
 
 .role-card__title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
@@ -789,8 +796,8 @@ img { max-width: 100%; display: block; }
 }
 
 .footer__logo {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
   color: var(--white);
   font-weight: 700;
 }
@@ -865,6 +872,7 @@ img { max-width: 100%; display: block; }
   .grid-3 { grid-template-columns: 1fr; }
   .grid-4 { grid-template-columns: 1fr 1fr; }
   .gallery-grid { grid-template-columns: 1fr; }
+  .video-grid { grid-template-columns: 1fr; }
   .hero__actions { flex-direction: column; }
   .campaign__actions { flex-direction: column; }
   .stats-bar__grid { flex-direction: column; gap: 16px; }
@@ -889,6 +897,39 @@ img { max-width: 100%; display: block; }
 .fade-in:nth-child(4) { transition-delay: 0.3s; }
 .fade-in:nth-child(5) { transition-delay: 0.4s; }
 .fade-in:nth-child(6) { transition-delay: 0.5s; }
+
+/* ── VIDEO SECTION ──────────────────────────────────────── */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.video-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--light);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-item__caption {
+  font-size: 0.85rem;
+  color: var(--mid);
+  text-align: center;
+  margin-top: 10px;
+}
 
 /* ── FLOATING WHATSAPP BUTTON ──────────────────────────── */
 .whatsapp-float {
