@@ -45,6 +45,48 @@ What you can change there:
 
 ---
 
+## How Dr. Andrew Can Update the Site (No coding needed)
+
+Everything below can be done from a phone or computer at **github.com**, with no app to install.
+
+### Upload a new photo
+
+1. Go to [github.com](https://github.com) and sign in
+2. Open this repository, then click the `images/` folder
+3. Click **Add file → Upload files**
+4. Choose your photo from your phone gallery (JPG or PNG, under 5 MB)
+5. Scroll down and click **Commit changes**
+
+Then open `content.js`, find `gallery.images`, and add a new line:
+```js
+{ src: "images/yourphoto.jpg", caption: "A description of the photo" },
+```
+
+### Add a school video
+
+1. Upload your WhatsApp video to YouTube (free — use the YouTube app on your phone)
+2. Open the video on YouTube and copy the ID from the link.
+   Example: in `youtube.com/watch?v=abc123xyz`, the ID is `abc123xyz`
+3. Open `content.js`, find the `videos` section, and add:
+   ```js
+   { youtube_id: "abc123xyz", caption: "Morning assembly, Term 2 2025" },
+   ```
+4. Click **Commit changes** — the video appears on the site immediately
+
+### Update the fundraising numbers
+
+1. Open `content.js` in the repository
+2. Click the pencil icon (Edit this file)
+3. Find `raised: 2325` and change the number to the new total
+4. Find `donors: 39` and update the donor count
+5. Click **Commit changes**
+
+### Update any other text
+
+Open `content.js`, click the pencil, change the value you want, commit. The website updates within seconds. You can change: school description, founder story, campaign text, adopt-a-student price, volunteer roles, contact details, or anything else.
+
+---
+
 ## Deploying to GitHub Pages (Free)
 
 ### First time
